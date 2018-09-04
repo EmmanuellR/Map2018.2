@@ -13,17 +13,17 @@ public class Main {
 		FabricaFiat fabricafiat = good.new FabricaFiat();
 	    CarroSedan sedan = fabricafiat.criarCarroSedan();
 	    CarroPopular popular = fabricafiat.criarCarroPopular();
-	    sedan.exibirInfoSedan();
+	    sedan.exibircarrosedan();
 	    System.out.println();
-	    popular.exibirInfoPopular();
+	    popular.exibircarropopular();
 	    System.out.println();
 	    
 	    FabricaChevolet fabricaford = good.new FabricaChevolet();
 	    sedan = fabricaford.criarCarroSedan();
 	    popular = fabricaford.criarCarroPopular();
-	    sedan.exibirInfoSedan();
+	    sedan.exibircarrosedan();
 	    System.out.println();
-	    popular.exibirInfoPopular();
+	    popular.exibircarropopular();
 	  }
 
 	}

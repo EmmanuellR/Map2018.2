@@ -32,7 +32,7 @@ public class Good {
 	  }
 	  class Camaro implements CarroSedan{
 
-		public void exibirInfoSedan() {
+		public void exibircarrosedan() {
 			System.out.println("Modelo: Camaro \n Fábrica: Chevrolet\nCategoria:Sedan");
 			
 		}
@@ -47,7 +47,7 @@ public class Good {
 	  class CruzeSedan implements CarroPopular{
 
 		
-		public void exibirInfoPopular() {
+		public void exibircarropopular() {
 			System.out.println("Modelo: Cruze Hacth\n Fábrica: Chevrolet\nCategoria:Popular");
 			
 		}
@@ -63,7 +63,7 @@ public class Good {
 	  class Mobi implements CarroPopular {
 	 
 	 
-	    public void exibirInfoPopular() {
+	    public void exibircarropopular() {
 	        System.out.println("Modelo: Mobi\nFábrica: Fiat\nCategoria:Popular");
 	    }
 
@@ -75,7 +75,7 @@ public class Good {
 	  }
 	  class GranSiena implements CarroSedan {
 	 
-	    public void exibirInfoSedan() {
+	    public void exibircarrosedan() {
 	        System.out.println("Modelo: Gran Siena\nFábrica: Fiat\nCategoria:Sedan");
 	    }
 
