@@ -25,4 +25,9 @@ public class ImagemAdapter implements ImagemTarget{
 		this.imagem = imagem;
 	}
 
+	public void carregar(Imagem imagemPng) {
+		// TODO Auto-generated method stub
+		
+	}
+
 }
